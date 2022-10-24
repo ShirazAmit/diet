@@ -11,7 +11,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
-import {setBreakfast, setLunch, setDinner, setSnack} from '../redux/NutritionMonitoring/NutritionMonitoringSlice'
+import {setBreakfast, setLunch, setDinner, setSnack} from '../features/NutritionMonitoring/NutritionMonitoringSlice'
 import { useDispatch} from 'react-redux'
 
 

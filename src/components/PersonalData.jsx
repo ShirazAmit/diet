@@ -15,7 +15,7 @@ import HeightIcon from '@mui/icons-material/Height';
 import MonitorWeightIcon from '@mui/icons-material/MonitorWeight';
 import DriveFileRenameOutlineIcon from '@mui/icons-material/DriveFileRenameOutline';
 import { useDispatch} from 'react-redux'
-import {setGender, setAge ,setHeight,setWeight} from '../redux/PersonalData/PersonalDataSlice'
+import {setGender, setAge ,setHeight,setWeight} from '../features/PersonalData/PersonalDataSlice'
 import {Button} from "@mui/material";
 import ShowBMR from "./ShowBMR";
 
